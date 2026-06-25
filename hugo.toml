@@ -1,0 +1,22 @@
+# Hugo configuration for hugo-paper theme
+# https://github.com/nanxiaobei/hugo-paper
+
+baseURL = "https://your-site.netlify.app/"
+languageCode = "zh-CN"
+title = "My Blog"
+theme = "paper"
+
+[params]
+  # Paper theme supports: useh-card / dateFormat / nav / disableDarkMode
+  dateFormat = "2006-01-02"
+
+# Custom navigation links (shown in the header)
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Editor"
+    url = "/admin/"
+    weight = 2
