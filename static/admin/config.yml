@@ -1,6 +1,10 @@
 backend:
   name: git-gateway
   branch: main
+  backend:
+    name: git-gateway
+    branch: main
+    repo: linkiouob/my-blog
   # Replace with your GitHub username and repo name:
   # repo: your-username/your-repo-name
 
