@@ -1,7 +1,7 @@
 # Hugo configuration for hugo-paper theme
 # https://github.com/nanxiaobei/hugo-paper
 
-baseURL = "https://your-site.netlify.app/"
+baseURL = "https://soft-choux-a40e6f.netlify.app/"
 languageCode = "zh-CN"
 title = "My Blog"
 theme = "paper"
